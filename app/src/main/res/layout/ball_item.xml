@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_ball"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:background="@drawable/tv_ball_bg"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="12sp">
+
+</TextView>
