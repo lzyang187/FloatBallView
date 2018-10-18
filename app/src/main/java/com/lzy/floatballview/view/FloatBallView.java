@@ -4,8 +4,6 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,6 +18,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * @author: cyli8
@@ -126,7 +127,7 @@ public class FloatBallView extends FrameLayout {
     /**
      * 设置数据源
      */
-    public void setWaters(final List<FloatBall> balls) {
+    public void setDatas(final List<FloatBall> balls) {
         if (balls == null || balls.isEmpty()) {
             return;
         }
